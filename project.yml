@@ -11,8 +11,9 @@ settings:
     MACOSX_DEPLOYMENT_TARGET: "13.0"
     GENERATE_INFOPLIST_FILE: NO
     CLANG_ENABLE_MODULES: YES
-    CODE_SIGN_STYLE: Automatic
-    DEVELOPMENT_TEAM: 25TVW8MSGJ
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: ""
+    CODE_SIGNING_REQUIRED: NO
   configs:
     Debug:
       OTHER_CODE_SIGN_FLAGS: "--timestamp=none"
@@ -81,7 +82,7 @@ targets:
         PRODUCT_MODULE_NAME: ZenttyCLI
         PRODUCT_BUNDLE_IDENTIFIER: be.zenjoy.zentty.cli
         GENERATE_INFOPLIST_FILE: YES
-        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_STYLE: Manual
         SKIP_INSTALL: YES
         ENABLE_HARDENED_RUNTIME: YES
         INFOPLIST_KEY_CFBundleName: zentty

@@ -33,3 +33,6 @@ fastlane/.env
 *.p8
 .sentryclirc
 tmp/
+
+# FuzzyMatch benchmark corpus (large data files, not needed for builds)
+Vendor/FuzzyMatch/Resources/

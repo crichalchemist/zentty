@@ -1,6 +1,0 @@
-fuzz-fuzzymatch
-corpus/
-crash-*
-leak-*
-timeout-*
-oom-*
